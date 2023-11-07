@@ -1,0 +1,40 @@
+{
+    "name": "row-node-api",
+    "version": "1.0.0",
+    "description": "exploring row node and making api",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index",
+        "lint": "eslint ./",
+        "jsdoc": "jsdoc -c jsdoc.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Ashaduzzaman10/row-node-api.git"
+    },
+    "keywords": [
+        "row",
+        "node",
+        "api"
+    ],
+    "author": "akash",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Ashaduzzaman10/row-node-api/issues"
+    },
+    "homepage": "https://github.com/Ashaduzzaman10/row-node-api#readme",
+    "devDependencies": {
+        "eslint": "^8.52.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-node": "^4.1.0",
+        "eslint-config-prettier": "^9.0.0",
+        "eslint-plugin-import": "^2.29.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^5.0.1",
+        "prettier": "^3.0.3"
+    },
+    "dependencies": {
+        "jsdoc": "^4.0.2",
+        "nodemon": "^3.0.1"
+    }
+}
